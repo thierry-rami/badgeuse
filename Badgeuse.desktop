@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/home/thierry/Badgeuse_Activity/Badgeuse.sh
+Exec=/home/xxxxx/Badgeuse_Activity/Badgeuse.sh
 Name=Badgeuse
 Comment=Badgeuse Plateforme
-Icon=/home/thierry/Badgeuse_Activity/Badgeuse.png
+Icon=/home/xxxxx/Badgeuse_Activity/Badgeuse.png
