@@ -1,0 +1,12 @@
+app.patch                                                                          
+--- Badgeuse_Activity/controllers/App.py        2024-11-14 08:22:59.326353862 +0100
++++ Badgeuse_Activity01/controllers/App.py      2024-11-14 08:19:26.267866705 +0100
+@@ -39,7 +39,7 @@
+             root.configure(bg="#f0f0f0")
+             logo = Tools.loadLogo()
+             # Mettre l'application au premier plan + maximized
+-            root.state('zoomed')
++            root.state('normal')
+             root.attributes("-topmost", True)
+             # Enlève l'attribut après le lancement
+             root.after(0, root.attributes, "-topmost", False)
