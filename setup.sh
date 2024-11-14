@@ -8,7 +8,6 @@ patch requirements.txt ~/badgeuse/requirements.patch
 source ~/Badgeuse/bin/activate
 pip3 install -r requirements.txt 
 cd ~/badgeuse
-chmod +x 
 sed -i "s/xxxxx/$USER/g" Badgeuse.desktop 
 chmod +x Badgeuse.sh
 cp Badgeuse.sh ../Badgeuse_Activity
