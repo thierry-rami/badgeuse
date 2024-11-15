@@ -6,7 +6,7 @@ app.patch
              logo = Tools.loadLogo()
              # Mettre l'application au premier plan + maximized
 -            root.state('zoomed')
-+            root.state('normal')
++            root.attributes("-zoomed", True)
              root.attributes("-topmost", True)
              # Enlève l'attribut après le lancement
              root.after(0, root.attributes, "-topmost", False)
