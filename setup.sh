@@ -12,6 +12,6 @@ sed -i "s/xxxxx/$USER/g" Badgeuse.desktop
 chmod +x Badgeuse.sh
 cp Badgeuse.sh ../Badgeuse_Activity
 cp Badgeuse.png ../Badgeuse_Activity
-sudo cp Badgeuse.desktop /usr/share/applications/Badgeuse.desktop 
+sudo cp Badgeuse.desktop ~/.local/share/applications/Badgeuse.desktop 
 cd
 rm ~/badgeuse -fr

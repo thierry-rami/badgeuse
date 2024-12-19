@@ -14,6 +14,10 @@ cd badgeuse/
 ## Terminal
 ~/Badgeuse_Activity/Badgeuse.sh
 
+## ajout icone bureau mate/Gnome
+ajouté dans le script d'installation
 ## depuis Mate / Gnome
 ![Texte alternatif](./img/mate.png "Mate")
 ![Texte alternatif](./img/gnome.png "Gnome")
+
+
